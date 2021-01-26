@@ -14,5 +14,4 @@ jobs:
           actions: 'mark-duplicate'
           token: ${{ secrets.GITHUB_TOKEN }}
           duplicate-labels: 'type:duplicate'
-          require-permission: 'write'
           close-issue: true
