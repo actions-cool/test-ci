@@ -1,0 +1,12 @@
+name: Test
+
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize, ready_for_review, review_requested]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-cool/test-ci@main
