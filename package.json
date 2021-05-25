@@ -10,5 +10,9 @@
   "license": "MIT",
   "devDependencies": {
     "@vercel/ncc": "^0.27.0"
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.5.3",
+    "dotenv": "^10.0.0"
   }
 }
