@@ -95,3 +95,6 @@
 <a href="https://github.com/xingwanying" title="xingwanying">
   <img src="https://avatars.githubusercontent.com/u/10885578?v=4" width="50" />
 </a>
+
+
+<div style="border-radius:50%;background-image:url('https://avatars.githubusercontent.com/u/10885578?v=4');background-size:contain; width: 50px;height:50px;"></div>
