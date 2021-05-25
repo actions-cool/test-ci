@@ -93,7 +93,7 @@
   <img src="https://avatars.githubusercontent.com/u/29775873?v=4" style="border-radius: 50%" width="50" />
 </a>
 <a href="https://github.com/xingwanying">
-  <img src="https://avatars.githubusercontent.com/u/10885578?v=4" height="auto" width="200" style="border-radius:50%" />
+  <img src="https://avatars.githubusercontent.com/u/10885578" height="auto" width="200" style="border-radius:50%" />
 </a>
 
 [![](https://avatars.githubusercontent.com/u/10885578?v=4&s=50)](https://github.com/xingwanying)
