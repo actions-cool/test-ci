@@ -1,8 +1,7 @@
 name: Contributor Helper
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
+  issues
 
 jobs:
   contributor:
@@ -10,23 +9,13 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - uses: actions-cool/contributor-helper@v1.0.0
+      - uses: actions-cool/contributor-helper@v1.2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          update-files: 'DEMO.base.md'
-          update-places: '## Contributors List/## hi'
-          repo: 'antvis/X6'
-          style: 'base'
-          avatar-width: '66'
-
-      - uses: actions-cool/contributor-helper@v1.0.0
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          update-files: 'DEMO.simple.md'
-          update-places: '## Contributors List/## hello'
-          repo: 'antvis/X6'
+          update-files: 'README.md, README.zh-CN.md'
+          update-places: 'CONTRIBUTING.md)./## 📧 Contact us, CONTRIBUTING.md)。/## 📧 联系我们'
+          repo: 'antvis/G2Plot'
           style: 'simple'
-          avatar-width: '66'
 
       - name: Commit and push if changed
         run: |-
