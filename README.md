@@ -4,7 +4,7 @@
 
 <div align="center">
 
-A charting library based on the Grammar of Graphics.
+A charting library based on the Grammar of Graphics.1
 
 [![Version](https://badgen.net/npm/v/@antv/g2plot)](https://npmjs.com/@antv/g2plot)
 [![NPM downloads](https://img.shields.io/npm/dm/@antv/g2plot.svg)](https://npmjs.com/@antv/g2plot)
