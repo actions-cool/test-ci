@@ -104,7 +104,7 @@ bar.render();
 
 提交代码请遵循 [贡献指引](https://github.com/antvis/g2plot/blob/master/CONTRIBUTING.md)。
 
-> 📊 Total: <kbd>**35**</kbd>
+> 📊 Total: <kbd>**38**</kbd>
 
 <a href="https://github.com/visiky" title="visiky">
   <img src="https://avatars.githubusercontent.com/u/15646325?v=4" width="50" />
@@ -151,8 +151,14 @@ bar.render();
 <a href="https://github.com/mjul" title="mjul">
   <img src="https://avatars.githubusercontent.com/u/142868?v=4" width="50" />
 </a>
+<a href="https://github.com/ai-qing-hai" title="ai-qing-hai">
+  <img src="https://avatars.githubusercontent.com/u/65594180?v=4" width="50" />
+</a>
 <a href="https://github.com/jinhuiWong" title="jinhuiWong">
   <img src="https://avatars.githubusercontent.com/u/23117130?v=4" width="50" />
+</a>
+<a href="https://github.com/xrkffgg" title="xrkffgg">
+  <img src="https://avatars.githubusercontent.com/u/29775873?v=4" width="50" />
 </a>
 <a href="https://github.com/kagawagao" title="kagawagao">
   <img src="https://avatars.githubusercontent.com/u/6930280?v=4" width="50" />
@@ -160,17 +166,20 @@ bar.render();
 <a href="https://github.com/MrSmallLiu" title="MrSmallLiu">
   <img src="https://avatars.githubusercontent.com/u/26038018?v=4" width="50" />
 </a>
+<a href="https://github.com/Angelii" title="Angelii">
+  <img src="https://avatars.githubusercontent.com/u/27258415?v=4" width="50" />
+</a>
 <a href="https://github.com/ntscshen" title="ntscshen">
   <img src="https://avatars.githubusercontent.com/u/21041458?v=4" width="50" />
 </a>
 <a href="https://github.com/guonanci" title="guonanci">
   <img src="https://avatars.githubusercontent.com/u/12762626?v=4" width="50" />
 </a>
-<a href="https://github.com/ai-qing-hai" title="ai-qing-hai">
-  <img src="https://avatars.githubusercontent.com/u/65594180?v=4" width="50" />
-</a>
 <a href="https://github.com/DawnLck" title="DawnLck">
   <img src="https://avatars.githubusercontent.com/u/12195307?v=4" width="50" />
+</a>
+<a href="https://github.com/eltociear" title="eltociear">
+  <img src="https://avatars.githubusercontent.com/u/22633385?v=4" width="50" />
 </a>
 <a href="https://github.com/CarisL" title="CarisL">
   <img src="https://avatars.githubusercontent.com/u/13416424?v=4" width="50" />
@@ -187,6 +196,9 @@ bar.render();
 <a href="https://github.com/yanglbme" title="yanglbme">
   <img src="https://avatars.githubusercontent.com/u/21008209?v=4" width="50" />
 </a>
+<a href="https://github.com/apps/allcontributors" title="allcontributors[bot]">
+  <img src="https://avatars.githubusercontent.com/in/23186?v=4" width="50" />
+</a>
 <a href="https://github.com/beewolf233" title="beewolf233">
   <img src="https://avatars.githubusercontent.com/u/24711525?v=4" width="50" />
 </a>
@@ -201,9 +213,6 @@ bar.render();
 </a>
 <a href="https://github.com/NewByVector" title="NewByVector">
   <img src="https://avatars.githubusercontent.com/u/20186737?v=4" width="50" />
-</a>
-<a href="https://github.com/xrkffgg" title="xrkffgg">
-  <img src="https://avatars.githubusercontent.com/u/29775873?v=4" width="50" />
 </a>
 <a href="https://github.com/xingwanying" title="xingwanying">
   <img src="https://avatars.githubusercontent.com/u/10885578?v=4" width="50" />
