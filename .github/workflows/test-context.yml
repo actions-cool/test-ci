@@ -9,4 +9,4 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - run: echo {{ github.context }}
+      - uses: actions-cool/test-ci@main
