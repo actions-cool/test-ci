@@ -1,0 +1,12 @@
+name: Test Context
+
+on:
+  issues:
+  pull_request:
+  release:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo {{ github.context }}
