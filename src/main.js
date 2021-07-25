@@ -5,7 +5,7 @@ const context = github.context;
 
 async function run() {
   try {
-    core.info(`[context]: ${context}`);
+    core.info(`[context]: ${JSON.stringify(context)}`);
   } catch (error) {
     core.setFailed(error.message);
   }
