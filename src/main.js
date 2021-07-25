@@ -1,12 +1,11 @@
+const github = require('@actions/github');
+const core = require('@actions/core');
 
-const fs = require('fs');
+const context = github.context;
 
 async function run() {
   try {
-    const package = JSON.parse(fs.readFileSync('./package.json'));
-    console.log(package.version)
-
-
+    core.info(`[context]: ${context}`);
   } catch (error) {
     core.setFailed(error.message);
   }
