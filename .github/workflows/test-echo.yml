@@ -1,0 +1,10 @@
+name: Test Echo
+
+on: issues
+  
+jobs:
+  emoji:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ${{ github }}
+      - run: echo ${{ job }}
