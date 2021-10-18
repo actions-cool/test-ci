@@ -1,18 +1,25 @@
 {
-  "name": "test-ci",
+  "name": "@xrkffgg/test-ci",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "main": "src/main.js",
   "scripts": {
-    "package": "ncc build"
+    "package": "ncc build",
+    "prepublishOnly": "npm run build && np --yolo --no-publish"
   },
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "README.md"
+  ],
   "author": "xrkffgg",
   "license": "MIT",
   "devDependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
     "@vercel/ncc": "^0.27.0",
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "np": "^7.5.0"
   },
   "dependencies": {
     "@octokit/rest": "^18.5.3",
