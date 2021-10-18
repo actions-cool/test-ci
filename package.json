@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "package": "ncc build",
-    "prepublishOnly": "npm run build && np --yolo --no-publish"
+    "prepublishOnly": "np --yolo --no-publish"
   },
   "files": [
     "dist",
