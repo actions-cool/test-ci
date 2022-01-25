@@ -8,6 +8,10 @@ async function run() {
   try {
     core.info(`[github]: ${JSON.stringify(github)}`);
     console.log(chalk.green('🎉 Done!'));
+    const a = core.getInput('a');
+    console.log(`a is ${JSON.stringify(a)}`);
+    console.log(`a l is ${a.length}`);
+    console.log(`a type is ${typeof(a)}`);
   } catch (error) {
     core.setFailed(error.message);
   }

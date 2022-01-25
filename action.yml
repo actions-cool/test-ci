@@ -14,6 +14,8 @@ inputs:
     description: Secret GitHub API token to use for making API requests.
     default: ${{ github.token }}
     required: true
+  a:
+    description: t a
 
 #outputs:
 #  result:
