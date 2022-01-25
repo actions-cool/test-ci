@@ -10,3 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions-cool/test-ci@main
+        with:
+          a: ${{ secrets.TOKEN1 }} ${{ secrets.TOKEN2 }}
