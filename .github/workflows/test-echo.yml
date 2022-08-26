@@ -5,6 +5,6 @@ on: issues
 jobs:
   emoji:
     runs-on: ubuntu-latest
-    if: github.event.issue.labels.length > 0
+    if: ${{ github.event.issue.labels.length > 0 }}
     steps:
-      - run: echo ${{ github.event.issue.labels }}
+      - run: echo ${{ toJSON(github.event.issue.labels) }}
