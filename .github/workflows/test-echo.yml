@@ -6,4 +6,4 @@ jobs:
   emoji:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{ github.event.issue.labels.length }}
+      - run: echo ${{ github.event.issue.title }}
