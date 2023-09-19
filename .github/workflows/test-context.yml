@@ -4,6 +4,8 @@ on:
   issues:
   pull_request:
   release:
+  issue_comment:
+  
 
 jobs:
   check:
